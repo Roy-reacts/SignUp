@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Signup from './Signup';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='App'>
+   {/*   {users.map((user)=> { 
+       return (
+       <div>
+         {""}
+         <h1>Name : {user.name}</h1>
+         <h1>Age : {user.age}</h1> 
+         
+       </div>
+     );
+       })} */}
+
+       <Signup/>
+     
+   </div>
+  
   );
 }
 
